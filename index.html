@@ -180,7 +180,7 @@
             tableContainer.style.display = 'block';
         }
 
-        fetch('http://localhost:13000/api/wb/products')
+        fetch('http://159.89.109.167:13000/api/wb/products')
             .then(response => response.json())
             .then(data => {
                 updateTable(data);
